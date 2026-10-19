@@ -2,9 +2,9 @@ package acciones_administrador;
 
 import java.util.Scanner;
 
-public class Congelar_usuario {
+public final class Congelar_usuario {
 	
-	public void Congelar_usuario() {
+	public void congelar_usuario() {
 		Scanner scanner = new Scanner(System.in);
 		String nombreString;
 		

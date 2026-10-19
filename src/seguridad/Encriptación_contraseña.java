@@ -1,7 +1,9 @@
 package seguridad;
 
-public class Encriptación_contraseña {
+public final class Encriptación_contraseña {
 	
-	public void Encriptación_contraseña() {}
+	public String encriptación_contraseña(String contraseña) {
+		return contraseña + "a";
+	}
 
 }
