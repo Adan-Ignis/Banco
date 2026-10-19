@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Administrador {
 	
-	public void MenuAdministrador() {
+	public void iniciar() {
 		Scanner scanner = new Scanner(System.in);
 		int opcion;
 		

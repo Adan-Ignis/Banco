@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Banquero {
 	
-	public void MenuBanquero() {
+	public void iniciar() {
 		Scanner scanner = new Scanner(System.in);
 		int opcion;
 		

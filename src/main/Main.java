@@ -1,14 +1,13 @@
 package main;
 
-import menu.Main;
+import menu.MenuPrincipal;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Main menu = new Main();
-		menu.MenuPrincipal();
-
+		MenuPrincipal menuPrincipal = new MenuPrincipal();
+		menuPrincipal.iniciar();
 	}
 
 }
